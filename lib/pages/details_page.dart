@@ -101,7 +101,7 @@ class _DetailsPageState extends State<DetailsPage> {
                   backgroundColor: Colors.teal,
                   duration: const Duration(seconds: 2),
                   content: Text(
-                    'This Item is already added please go back and change it.',
+                    'Sản phẩm đã có trong giỏ hàng',
                     style: style.copyWith(fontSize: 14, color: Colors.white),
                   ));
               ScaffoldMessenger.of(context).showSnackBar(snackBar);
@@ -131,7 +131,7 @@ class _DetailsPageState extends State<DetailsPage> {
                 width: 10,
               ),
               Text(
-                'Add To Cart',
+                'Thêm vào giỏ hàng',
                 style: style.copyWith(fontSize: 18, color: Color.fromARGB(255, 212, 0, 255)),
               ),
             ],

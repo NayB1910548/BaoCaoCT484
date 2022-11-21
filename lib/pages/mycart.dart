@@ -30,10 +30,10 @@ class _MyCartState extends State<MyCart> {
               color: Colors.black,
             ),
           ),
-          backgroundColor: Colors.transparent,
+          backgroundColor: Color.fromARGB(0, 255, 0, 0),
           centerTitle: true,
           title: Text(
-            'My Cart',
+            'Giỏ hàng',
             style: style.copyWith(
               color: Colors.black,
               fontSize: 20,
@@ -73,7 +73,7 @@ class _MyCartState extends State<MyCart> {
                                 width: _screenwidth * .4,
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(10),
-                                    color: bleu),
+                                    color: red),
                                 child: MaterialButton(
                                   onPressed: () {
                                     Navigator.push(
@@ -84,7 +84,7 @@ class _MyCartState extends State<MyCart> {
                                                 )));
                                   },
                                   child: Text(
-                                    'Chekout',
+                                    'Thanh toán',
                                     style: style.copyWith(
                                         color: white, fontSize: 20),
                                   ),
@@ -111,7 +111,7 @@ class _MyCartState extends State<MyCart> {
                   )
                 : Center(
                     child: Text(
-                      'Nothing To Show',
+                      'Chưa có gì trong giỏ',
                       style: style.copyWith(
                         color: Colors.black,
                         fontSize: 24,
@@ -196,7 +196,7 @@ class _MyCartState extends State<MyCart> {
                         color: Colors.black),
                   ),
                   Text(
-                    'Items : ${boughtitems[index].items}',
+                    'Số lượng : ${boughtitems[index].items}',
                     style: style.copyWith(
                         fontSize: 14,
                         fontWeight: FontWeight.w600,
@@ -256,11 +256,11 @@ class _MyCartState extends State<MyCart> {
           margin: const EdgeInsets.all(8),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(6),
-            color: Colors.black,
+            color: Color.fromARGB(255, 255, 255, 255),
           ),
           child: Text(item.toString(),
               style: style.copyWith(
-                fontSize: 12,
+                fontSize: 15,
               )),
         ),
         InkWell(

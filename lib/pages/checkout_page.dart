@@ -25,7 +25,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
         appBar: AppBar(
           elevation: 0,
           centerTitle: true,
-          backgroundColor: bleu,
+          backgroundColor: Color.fromARGB(255, 47, 120, 255),
           leading: Padding(
             padding: const EdgeInsets.all(10.0),
             child: InkWell(
@@ -40,7 +40,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
           ),
         ),
         body: Container(
-          color: bleu,
+          color: Color.fromARGB(255, 47, 120, 255),
           width: _screenwidth,
           child: Padding(
             padding: const EdgeInsets.all(30.0),
@@ -183,7 +183,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
           child: (isloading)
               ? const CircularProgressIndicator()
               : Text(
-                  'Pay Now',
+                  'Thanh toán ngay',
                   style: style.copyWith(fontSize: 18, color: Colors.black),
                 ),
         ),
@@ -196,7 +196,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
             context: context,
             animType: AnimType.SCALE,
             dialogType: DialogType.SUCCES,
-            title: 'Success Payment',
+            title: 'Thanh toán thành công',
             btnOkText: 'OK',
             btnOkIcon: Icons.check,
             dismissOnBackKeyPress: false,
@@ -206,7 +206,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
               Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (_) => const MyHomePage()));
             },
-            btnOkColor: Colors.green,
+            btnOkColor: Color.fromARGB(255, 47, 120, 255),
             buttonsBorderRadius: BorderRadius.circular(20))
         .show();
   }

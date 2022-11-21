@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage>
             padding: const EdgeInsets.all(12.0),
             child: Text(
               'Apple Shop',
-              style: style.copyWith(color: Colors.black, fontSize: 16),
+              style: style.copyWith(color: Colors.black, fontSize: 20),
             ),
           ),
           actions: [
@@ -57,20 +57,15 @@ class _MyHomePageState extends State<MyHomePage>
                 padding: const EdgeInsets.only(top: 20, right: 10),
                 child: Row(
                   children: [
-                    const Icon(
-                      Icons.money,
-                      color: bleu,
-                      size: 28,
-                    ),
                     const SizedBox(
                       width: 3,
                     ),
                     Text(
-                      'Pay',
+                      'Thanh toán',
                       style: style.copyWith(
                           fontSize: 14,
                           fontWeight: FontWeight.w900,
-                          color: bleu),
+                          color: Color.fromARGB(255, 255, 0, 13)),
                     )
                   ],
                 ),
@@ -102,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage>
                       )
                     : const Icon(
                         Icons.favorite,
-                        color: Colors.black,
+                        color: Color.fromARGB(255, 255, 0, 0),
                         size: 28,
                       ),
               ),

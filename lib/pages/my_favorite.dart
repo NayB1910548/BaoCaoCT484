@@ -32,7 +32,7 @@ class _MyCartState extends State<MyFavorite> {
           backgroundColor: Colors.transparent,
           centerTitle: true,
           title: Text(
-            'My Favorite',
+            'Danh sách yêu thích',
             style: style.copyWith(
               color: Colors.black,
               fontSize: 20,
@@ -63,7 +63,7 @@ class _MyCartState extends State<MyFavorite> {
                   )
                 : Center(
                     child: Text(
-                      'Nothing To Show',
+                      'Không có sản phẩm yêu thích',
                       style: style.copyWith(
                         color: Colors.black,
                         fontSize: 24,
