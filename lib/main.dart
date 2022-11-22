@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/myhomepage.dart';
+import 'pages/trangchu.dart';
 
 void main() {
   runApp(const MyApp());
