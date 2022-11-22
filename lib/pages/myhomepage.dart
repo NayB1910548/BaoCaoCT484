@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage>
                   unselectedLabelStyle: style.copyWith(fontSize: 12),
                   labelStyle: style.copyWith(fontSize: 12),
                   indicator: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20), color: bleu),
+                      borderRadius: BorderRadius.circular(20), color: Color.fromARGB(255, 0, 0, 0)),
                   unselectedLabelColor: Colors.grey.shade800,
                   tabs: const [
                     Tab(
