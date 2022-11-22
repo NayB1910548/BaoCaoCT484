@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:Apple_Shop/models/cart_model.dart';
 
 import 'package:Apple_Shop/consts.dart';
-import 'package:Apple_Shop/models/shoes_model.dart';
+import 'package:Apple_Shop/models/phones_model.dart';
 
 class DetailsPage extends StatefulWidget {
   final PhoneModel item;
@@ -123,16 +123,12 @@ class _DetailsPageState extends State<DetailsPage> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(
-                Icons.backpack,
-                color: white,
-              ),
               const SizedBox(
                 width: 10,
               ),
               Text(
                 'Thêm vào giỏ hàng',
-                style: style.copyWith(fontSize: 18, color: Color.fromARGB(255, 212, 0, 255)),
+                style: style.copyWith(fontSize: 18, color: Color.fromARGB(255, 255, 0, 0)),
               ),
             ],
           ),

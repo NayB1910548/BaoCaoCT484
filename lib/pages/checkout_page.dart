@@ -25,7 +25,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
         appBar: AppBar(
           elevation: 0,
           centerTitle: true,
-          backgroundColor: Color.fromARGB(255, 47, 120, 255),
+          backgroundColor: Color.fromARGB(255, 206, 206, 206),
           leading: Padding(
             padding: const EdgeInsets.all(10.0),
             child: InkWell(
@@ -40,7 +40,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
           ),
         ),
         body: Container(
-          color: Color.fromARGB(255, 47, 120, 255),
+          color: Color.fromARGB(255, 206, 206, 206),
           width: _screenwidth,
           child: Padding(
             padding: const EdgeInsets.all(30.0),
@@ -206,7 +206,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
               Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (_) => const MyHomePage()));
             },
-            btnOkColor: Color.fromARGB(255, 47, 120, 255),
+            btnOkColor: Color.fromARGB(255, 0, 0, 0),
             buttonsBorderRadius: BorderRadius.circular(20))
         .show();
   }

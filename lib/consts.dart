@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:Apple_Shop/models/cart_model.dart';
-import 'package:Apple_Shop/models/shoes_model.dart';
+import 'package:Apple_Shop/models/phones_model.dart';
 
 final TextStyle style = GoogleFonts.lato(
     fontSize: 30, color: Color.fromARGB(255, 0, 49, 128), fontWeight: FontWeight.w700);
@@ -23,14 +23,14 @@ List<PhoneModel> iphone14 = [
       company: 'Apple',
       price: 899,
       isselected: false,
-      color: Color.fromARGB(255, 0, 0, 0)),
+      color: Color.fromARGB(255, 206, 206, 206)),
   PhoneModel(
       name: 'Apple IPhone 14',
       img: 'assets/images/14.png',
       company: 'Apple',
       price: 799,
       isselected: false,
-      color: Color.fromARGB(255, 227, 182, 235)),
+      color: Color.fromARGB(255, 206, 206, 206)),
 ];
 
 List<PhoneModel> iphone13 = [
@@ -40,21 +40,21 @@ List<PhoneModel> iphone13 = [
       company: 'Apple',
       price: 999,
       isselected: false,
-      color: Colors.teal),
+      color: Color.fromARGB(255, 206, 206, 206)),
   PhoneModel(
       name: 'Apple IPhone 13 Pro',
       img: 'assets/images/13pro.png',
       company: 'Apple',
       price: 899,
       isselected: false,
-      color: Colors.teal),
+      color: Color.fromARGB(255, 206, 206, 206)),
   PhoneModel(
       name: 'Apple IPhone 13',
       img: 'assets/images/13.png',
       company: 'Apple',
       price: 799,
       isselected: false,
-      color: Color.fromARGB(255, 231, 231, 231)),
+      color: Color.fromARGB(255, 206, 206, 206)),
 ];
 
 List<PhoneModel> iphone12 = [
@@ -64,21 +64,21 @@ List<PhoneModel> iphone12 = [
       company: 'Apple',
       price: 899,
       isselected: false,
-      color: Color.fromARGB(255, 0, 0, 0)),
+      color: Color.fromARGB(255, 206, 206, 206)),
   PhoneModel(
       name: 'Apple IPhone 12 Mini',
       img: 'assets/images/12mini.png',
       company: 'Apple',
       price: 599,
       isselected: false,
-      color: red),
+      color: Color.fromARGB(255, 206, 206, 206)),
   PhoneModel(
       name: 'Apple IPhone 12',
       img: 'assets/images/12.png',
       company: 'Apple',
       price: 679,
       isselected: false,
-      color: Color.fromARGB(255, 0, 0, 0)),
+      color: Color.fromARGB(255, 206, 206, 206)),
 ];
 
 List<PhoneModel> allphone = iphone14 + iphone13 + iphone12;

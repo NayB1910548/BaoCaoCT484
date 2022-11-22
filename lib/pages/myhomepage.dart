@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:Apple_Shop/consts.dart';
 import 'package:Apple_Shop/pages/details_page.dart';
-import 'package:Apple_Shop/models/shoes_model.dart';
+import 'package:Apple_Shop/models/phones_model.dart';
 import 'package:Apple_Shop/pages/my_favorite.dart';
 import 'package:Apple_Shop/pages/mycart.dart';
 
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage>
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.grey[200],
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage>
                       width: 3,
                     ),
                     Text(
-                      'Thanh toán',
+                      'Giỏ hàng',
                       style: style.copyWith(
                           fontSize: 14,
                           fontWeight: FontWeight.w900,
